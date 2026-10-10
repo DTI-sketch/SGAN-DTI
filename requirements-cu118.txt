@@ -1,0 +1,11 @@
+--extra-index-url https://download.pytorch.org/whl/cu118
+--find-links https://data.dgl.ai/wheels/torch-2.3/cu118/repo.html
+
+torch==2.3.1+cu118
+dgl==2.4.0+cu118
+numpy==1.26.3
+scipy==1.13.1
+scikit-learn==1.6.1
+networkx==3.2.1
+torchdata==0.11.0
+

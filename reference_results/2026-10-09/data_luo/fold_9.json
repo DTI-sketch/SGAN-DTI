@@ -1,0 +1,26 @@
+{
+  "fold": 9,
+  "seed": 3407,
+  "epochs_ran": 29,
+  "graph_policy": "training-positive DTI edges only",
+  "validation_positive_edges_in_graph": 0,
+  "test_positive_edges_in_graph": 0,
+  "validation": {
+    "auc": 0.9144151475694444,
+    "aupr": 0.9206253790947851,
+    "precision": 0.8688524590163934,
+    "recall": 0.828125,
+    "F1": 0.848,
+    "MCC": 0.703898751533259,
+    "threshold": 0.63
+  },
+  "test": {
+    "auc": 0.8960157790927022,
+    "aupr": 0.9061409305061849,
+    "precision": 0.8324607329842932,
+    "recall": 0.8153846153846154,
+    "F1": 0.8238341968911918,
+    "MCC": 0.651419116403666,
+    "threshold": 0.63
+  }
+}

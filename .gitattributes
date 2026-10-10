@@ -1,0 +1,7 @@
+* text=auto eol=lf
+datasets/**/*.txt -diff
+reference_results/**/*.tsv -diff
+*.sh text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+
