@@ -158,16 +158,4 @@ Each fold writes metrics, test predictions, and its best validation checkpoint.
 | `data` | Hetero-B |
 | `data_zeng` | Zeng's dataset |
 
-## Citation
 
-The manuscript is currently under review. Citation metadata in
-[CITATION.cff](CITATION.cff) intentionally uses the group author name and can
-be replaced with the final bibliographic record after publication.
-
-## License and third-party material
-
-The SGAN-DTI code in this repository is released under the MIT License; see
-[LICENSE](LICENSE). Dataset files remain subject to their original database and
-publication terms. `model/conv.py` is adapted from DGL's GAT convolution code;
-see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and the bundled Apache 2.0
-license.
