@@ -149,21 +149,6 @@ python -u run_dti.py \
 Each fold writes metrics, test predictions, and its best validation checkpoint.
 `summary.json` contains the mean and sample standard deviation across folds.
 
-## Reference results
-
-The bundled reference run completed all 30 folds with zero held-out positive
-DTI edges in every message-passing graph.
-
-| Dataset | AUC | AUPR | Precision | Recall | F1 | MCC |
-|---|---:|---:|---:|---:|---:|---:|
-| Hetero-A | 0.9021 +/- 0.0176 | 0.9109 +/- 0.0204 | 0.8452 +/- 0.0452 | 0.8185 +/- 0.0328 | 0.8303 +/- 0.0178 | 0.6672 +/- 0.0435 |
-| Hetero-B | 0.9015 +/- 0.0065 | 0.9015 +/- 0.0093 | 0.8500 +/- 0.0195 | 0.8107 +/- 0.0304 | 0.8293 +/- 0.0103 | 0.6682 +/- 0.0142 |
-| Zeng's dataset | 0.9558 +/- 0.0077 | 0.9520 +/- 0.0107 | 0.8755 +/- 0.0143 | 0.9225 +/- 0.0191 | 0.8982 +/- 0.0080 | 0.7925 +/- 0.0160 |
-
-Here, `+/-` is the sample standard deviation over the ten fixed folds. The seed
-is reset to 3407 for each fold, so the variation is split variation rather than
-variation across independent random initialisations. Full files are in
-[`reference_results/2026-10-09`](reference_results/2026-10-09).
 
 ## Dataset identifiers
 
